@@ -500,10 +500,6 @@ form > button.focus-visible:focus:not(:focus-visible) {
     font-size: 2rem;
   }
 
-  .second-wrapper {
-    justify-content: normal;
-  }
-
   .description-list-item {
     font-size: 1.45rem;
   }
