@@ -112,6 +112,7 @@ header {
   margin-top: 30vh;
   margin-left: 0vw;
   font-size: 4.5rem;
+  text-align: center;
 }
 
 .second-wrapper {
@@ -472,7 +473,52 @@ form > button.focus-visible:focus:not(:focus-visible) {
 }
 
 /* phone vertically */
-@media (max-width: 360px) {
+@media (max-width: 690px) {
+  .main-title {
+    margin-top: 25vh;
+  }
+
+  .second-wrapper {
+    justify-content: space-evenly;
+  }
+
+  .second-title {
+    font-size: 2.5rem;
+  }
+
+  .order-list-item {
+    font-size: 1.5rem;
+  }
+
+  .third-wrapper {
+    justify-content: space-evenly;
+  }
+
+  .third-title {
+    font-size: 2.5rem;
+  }
+
+  .third-list-unorder-list-item {
+    font-size: 1.5rem;
+  }
+
+  .fourth-title {
+    font-size: 4rem;
+  }
+
+  form > button {
+    text-wrap: nowrap;
+    width: 40vw;
+  }
+}
+
+@media (max-width: 510px) {
+  form > button {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
   .main-title {
     margin-top: 17vh;
   }
@@ -513,7 +559,7 @@ form > button.focus-visible:focus:not(:focus-visible) {
 
   form > button {
     text-wrap: nowrap;
-    width: 70vw;
+    width: 40vw;
   }
 }
 
